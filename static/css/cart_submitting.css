@@ -1,0 +1,27 @@
+#cart-submitting-form {
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 20px;
+    width: 297px;
+    margin: auto;
+}
+
+#cart-submitting-form table {
+    width: 100%;
+    margin-top: 11px;
+}
+
+.t1 {
+    width: 30%;
+    text-align: right;
+}
+
+.t2 {
+    width: 70%;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.t3 {
+    padding-top: 20px;
+}

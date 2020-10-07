@@ -1,0 +1,20 @@
+#my-cart img {
+    width: 48px;
+}
+.table-cart {
+    border: 1px solid black;
+    margin-left:auto;
+    margin-right:auto;
+    padding:2px;
+}
+.table-cart td{
+    border: 1px solid black;
+}
+.cost {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.count {
+    padding-left: 5px;
+    padding-right: 5px;
+}

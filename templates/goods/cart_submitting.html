@@ -1,0 +1,38 @@
+<h2>Підтвердження замовлення</h2>
+<div>
+    <form id="cart-submitting-form" method="post" role="form">
+        <table border="1">
+            <tr id="row1">
+                <td class="t1">
+                    <label for="username">Ім'я:</label>
+                </td>
+                <td class="t2">
+                    <input type="text" id="username" name="username" required>
+                </td>
+            </tr>
+            <tr id="row2">
+                <td class="t1">
+                    <label for="email">E-mail:</label>
+                </td>
+                <td class="t2">
+                    <input type="email" id="email" name="email" required>
+                </td>
+            </tr>
+            <tr id="row3">
+                <td class="t1">
+                    <label for="tel">Номер телефону:</label>
+                </td>
+                <td class="t2">
+                    <input type="tel" id="tel" name="tel" required>
+                </td>
+            </tr>
+        </table>
+        <p>
+            <input id="ajaxButton" type="submit" value="Відправити">
+            <input type="reset" value="Очистити">
+        </p>
+        <div id="my-hidden-cart">
+
+        </div>
+    </form>
+</div>
